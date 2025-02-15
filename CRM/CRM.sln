@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRM", "CRM\CRM.csproj", "{CF12A436-C77A-4E55-BBB5-65FFAB81F61E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.API", "CRM.API\CRM.API.csproj", "{04682F7B-3DC0-47A3-BD91-E38FD6E475A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRM.API", "CRM.API\CRM.API.csproj", "{04682F7B-3DC0-47A3-BD91-E38FD6E475A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAuth", "UserAuth\UserAuth.csproj", "{3631CEFC-EF65-4794-9E1D-75651533DB3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{04682F7B-3DC0-47A3-BD91-E38FD6E475A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04682F7B-3DC0-47A3-BD91-E38FD6E475A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04682F7B-3DC0-47A3-BD91-E38FD6E475A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3631CEFC-EF65-4794-9E1D-75651533DB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3631CEFC-EF65-4794-9E1D-75651533DB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3631CEFC-EF65-4794-9E1D-75651533DB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3631CEFC-EF65-4794-9E1D-75651533DB3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
