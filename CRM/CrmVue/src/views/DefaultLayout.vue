@@ -1,6 +1,5 @@
 <template>
   <div class="layout">
-    <SideBar class="sidebar" />
     <main class="content">
       <LoginView />
     </main>
@@ -8,7 +7,7 @@
 </template>
 
 <script setup>
-import SideBar from '@/components/SideBar.vue'
+/*import SideBar from '@/components/SideBar.vue'*/
 import LoginView from '@/views/LoginView.vue'
 </script>
 
@@ -19,6 +18,7 @@ import LoginView from '@/views/LoginView.vue'
 }
 
 /* Sidebar is always fixed to the left */
+/*
 .sidebar {
   position: fixed;
   left: 0;
@@ -26,6 +26,7 @@ import LoginView from '@/views/LoginView.vue'
   height: 100vh;
   transition: width 0.3s ease-in-out;
 }
+*/
 
 /* Main content should not have a fixed margin */
 .content {

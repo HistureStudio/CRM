@@ -2,11 +2,11 @@
   <div class="flex">
     <!-- Sidebar -->
     <div
-      class="h-screen bg-gray-900 text-white p-4 transition-all duration-300 flex flex-col items-center"
+      class="text-white p-4 transition-all duration-300 flex flex-col items-center"
       :class="{ 'w-4': isOpen, 'w-2': !isOpen }"
     >
       <!-- Toggle Button -->
-      <button @click="isOpen = !isOpen" class="mb-4 p-2 bg-gray-700 rounded-md w-full">
+      <button @click="isOpen = !isOpen" class="mb-4 p-2 rounded-md w-full">
         {{ isOpen ? '<<' : '>>' }}
       </button>
 

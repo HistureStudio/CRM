@@ -12,7 +12,7 @@
     />
 
     <!-- Text (Same height as icon) -->
-    <span v-if="isOpen" class="text-base leading-6">
+    <span v-if="isOpen" class="text-base leading-2">
       {{ text }}
     </span>
   </div>
